@@ -1,2 +1,2 @@
 # IdentityServer
-Identity Server with MongoDB
+Identity Server with MongoDB Configuration
