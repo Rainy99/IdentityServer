@@ -116,6 +116,7 @@ namespace Devzhou.IdentityServer
                     }
                 }
 
+                // If the user collection is empty,add a test user in database
                 var userRepository = serviceScope.ServiceProvider.GetService<UserRepository>();
                 var users = userRepository.FindAll();
                 if (!users.Any())
